@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.element-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  row-gap: 25px;
+  margin-top: 25px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 25px;
+  list-style: none;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 1140px;
+  row-gap: 25px;
+}
